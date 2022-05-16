@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="m-1">
+  <div class="borderleftgray p-2 m-2">
+    <p class="fw-normal"><%=@input%><p>
+    <p class="fst-italic">-You</p>
+  </div>
+
+  <div class="borderleftgray p-2 m-2 backgroundyellow">
+    <p class="fw-bold"><%= @answer%><p>
+    <p class="fst-italic">-Your coach</p>
+  </div>
+</div>
+  <%= link_to "Ask a new question", ask_path, class:"font-weight-light text-primary m-2"%>
+</div>

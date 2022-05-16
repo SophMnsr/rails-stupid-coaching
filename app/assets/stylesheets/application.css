@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+ .backgroundyellow {
+   background-color: rgba(248, 248, 154, 0.642);
+ }
+
+ .borderleftgray {
+  border-left: 5px solid #dee2e6
+ }
+
+ h1 {
+   margin: 5px ;
+   padding: 5px ;
+ }
